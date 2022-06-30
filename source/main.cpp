@@ -21,7 +21,7 @@ std::optional<std::array<int, 4>> swapper(std::array<int, 4> nums) {
 	index++;
 	return arr;
 }
-float main() {
+int main() {
 	auto decide = [](float index) {
 		if (index == 0) return "+";
 		if (index == 1) return "-";
